@@ -1,1 +1,8 @@
 # Time-Series-Analysis
+Our goal is to use optimized Machine Learning and Deep Learning regression models that effectively predict the future values of the target variable (or the dependent variable) using the independent variables for 4 time series datasets below-
+
+For Bike sharing dataset, predictions of the count of total rental bikes for the time period in between August and December 2012 will be obtained, using available information about the past rentals count for 2011 and 2012. The time series data will be analyzed using various time series regression models and later on the models will be evaluated using RMSE value. This analysis would be helpful to have an idea about the future trend of bike rentals based on season, temperature, windspeed, weather situations and some other environmental conditions. 
+
+For Daily minimum temperature data, predictions of temperatures will be obtained using univariate regression models by introducing lag values. Finally, performance of each model will be analyzed taking into consideration their root mean square error value.
+
+For TCTE & SORCE data, total solar irradiance magnitude predictions will be obtained from the past values. For SORCE data, dates have been given in julian format which will be converted to calendar date format (yyyy-mm-dd) and then will be used in the regression models. The Total Irradiance Monitor uses an ambient temperature active cavity radiometer with an at-launch estimated absolute accuracy of 350 parts per million (ppm) and a long-term relative accuracy (stability) of 10 ppm per year. Daily TSI values reported at a mean solar distance of 1 astronomical unit (AU) and zero relative line-of-sight velocity with respect to the Sun is available in the dataset.
